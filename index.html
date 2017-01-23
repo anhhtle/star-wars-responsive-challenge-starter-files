@@ -4,19 +4,85 @@
   <meta charset="UTF-8">
   <title>Star Wars Responsive Challenge</title>
 
-  <!-- Responsive viewport tag, tells small screens that it's responsive -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Star Wars trading card responsive site">
 
-  <!-- Normalize.css, a cross-browser reset file -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
+  	<!-- Responsive viewport tag, tells small screens that it's responsive -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  	<!-- Normalize.css, a cross-browser reset file -->
+  	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
 
-  <!-- Stylesheets -->
+  	<!-- Google Font -->
+  	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 
+  	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/responsive.css">
+  	<link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
+	<header>
+		<div class="row">
+			<div class="col-12">
+				<h1 class="title">Star Wars Characters</h1>
+				<p class="title2">Incomplete list</p>
+			</div>
+		</div>
+	</header>
+
+	<div class="row">
+		<div class="col-4">
+			<div class="card">
+				<img src="images/ray_square.png">
+				<div class="card-detail">
+					<h3 class="name">Ray</h3>
+					<p class="description">Protagonist, from Tatooine</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-4">
+			<div class="card">
+				<img src="images/finn_square.png">
+				<div class="card-detail">
+					<h3 class="name">Finn</h3>
+					<p class="description">Storm Trooper, befriends Ray</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-4">
+			<div class="card">
+				<img src="images/kylo_square.png">
+				<div class="card-detail">
+					<h3 class="name">Kylo</h3>
+					<p class="description">Main villain, or is he?</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="card-flex">
+			<img src="images/poe_square.png">
+			<div class="card-detail">
+				<h3 class="name">Poe</h3>
+				<p class="description">Neutral pilot</p>
+			</div>
+		</div>
+		<div class="card-flex">
+			<img src="images/chewbacca_square.png">
+			<div class="card-detail">
+				<h3 class="name">Chewbacca</h3>
+				<p class="description">A great first mate</p>
+			</div>
+		</div>
+		<div class="card-flex">
+			<img src="images/yoda_square.png">
+			<div class="card-detail">
+				<h3 class="name">Yoda</h3>
+				<p class="description">Wise old Jedi master</p>
+			</div>
+		</div>
+	</div>
 
 </body>
 </html>
